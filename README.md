@@ -18,8 +18,8 @@ Personalized vim configuration.
 * https://github.com/scrooloose/nerdtree
 * https://github.com/corntrace/bufexplorer
 * https://github.com/ervandew/supertab
-* https://github.com/dalibor/snipmate.vim
-* https://github.com/dalibor/snipmate-snippets
+* https://github.com/mnasevic/snipmate.vim
+* https://github.com/mnasevic/snipmate-snippets
 * https://github.com/vim-ruby/vim-ruby
 * https://github.com/mileszs/ack.vim
 * https://github.com/altercation/vim-colors-solarized.git
@@ -40,9 +40,9 @@ Personalized vim configuration.
 ## Installation
 
 ```sh
-sudo apt-get install vim-gnome # vim with ruby support
+sudo apt-get install vim # install vim
 sudo apt-get install exuberant-ctags ncurses-term xsel
-git clone git@github.com:dalibor/vimfiles.git ~/.vim
+git clone git@github.com:mnasevic/vimfiles.git ~/.vim
 cd ~/.vim
 git submodule update --init
 echo "source ~/.vim/vimrc" > ~/.vimrc
