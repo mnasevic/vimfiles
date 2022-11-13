@@ -599,3 +599,8 @@ vnoremap <Leader>h y:call ViewHtmlText(@@)<CR>
 " View text for URL from clipboard.
 " On Linux, use @* for current selection or @+ for text in clipboard.
 nnoremap <Leader>h :call ViewHtmlText(@+)<CR>
+
+" Prettify
+nmap <Leader>py <Plug>(Prettier)
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md PrettierAsync

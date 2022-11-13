@@ -36,6 +36,7 @@ Personalized vim configuration.
 * https://github.com/ekalinin/Dockerfile.vim
 * https://github.com/fatih/vim-go
 * https://github.com/editorconfig/editorconfig-vim
+* https://github.com/prettier/vim-prettier
 
 ## Installation
 
@@ -46,6 +47,12 @@ git clone git@github.com:mnasevic/vimfiles.git ~/.vim
 cd ~/.vim
 git submodule update --init
 echo "source ~/.vim/vimrc" > ~/.vimrc
+```
+
+### For vim-prettier plugin only (to make Prettier: executable)
+```sh
+cd ~/.vim/bundle/vim-prettier
+npm install
 ```
 
 ### Adding a new plugin
