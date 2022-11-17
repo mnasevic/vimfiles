@@ -41,7 +41,7 @@ Personalized vim configuration.
 ## Installation
 
 ```sh
-sudo apt-get install vim # install vim
+sudo apt install vim-gtk3 #install vim (replacement for vim-gnome with +clipboard)
 sudo apt-get install exuberant-ctags ncurses-term xsel
 git clone git@github.com:mnasevic/vimfiles.git ~/.vim
 cd ~/.vim
